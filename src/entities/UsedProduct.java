@@ -28,10 +28,9 @@ public class UsedProduct extends Product{
 	
 	@Override
 	public String priceTag() {
-		return "(Used) $ " 
+		return getName() + "(Used) $ " 
 				+ String.format("%.2f", getPrice()) 
 				+ " (Manufacture date: " 
 				+ sdf.format(manufactureDate) + ")";
 	}
-	
 }

@@ -37,8 +37,6 @@ public class Product {
 	}
 	
 	public String priceTag() {
-		return "$" + String.format("%.2f", price);
+		return name + " $" + String.format("%.2f", price);
 	}
-	
-	
 }
