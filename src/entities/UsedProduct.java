@@ -1,5 +1,9 @@
 package entities;
 
-public class UsedProduct {
+import java.util.Date;
 
+public class UsedProduct {
+	
+	private Date manufactureDate;
+	
 }
